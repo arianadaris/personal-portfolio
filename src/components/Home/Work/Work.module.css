@@ -1,0 +1,144 @@
+/* Desktop */
+
+.desktopContainer#work
+{
+    margin: 5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.desktopContainer#work .cardContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.workButton
+{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #5685FF;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.desktopContainer#work .cardContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Mobile */
+
+.mobileContainer#work
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#work #introBackground
+{
+    margin-top: 1.4rem;
+}
+
+.mobileContainer#work h1
+{
+    font-size: 2rem;
+    color: #FF708D;
+    margin-top: -3rem;
+}
+
+.mobileContainer#work .cardContainer
+{
+    margin-left: 1rem;
+    margin-bottom: 1.4rem;
+    height: 100%;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5rem;
+    white-space: nowrap;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+
+    overflow-y: scroll; 
+    display: flex;
+    align-items: stretch;
+}
+
+.mobileContainer#work .cardContainer::-webkit-scrollbar
+{
+    display: none;
+}
+
+.mobileContainer#work .card
+{
+    display: inline-block;
+    flex: 0 0 auto;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 29.5385px;
+    padding: 1rem 1rem 1.5rem 1rem;
+    margin-right: 1rem;
+    white-space: normal;
+    width: 45%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.mobileContainer#work .card h3
+{
+    font-size: 1rem;
+    text-align: left;
+}
+
+.mobileContainer#work .card p
+{
+    font-size: 0.8rem;
+    text-align: left;
+    padding-bottom: 1.5rem;
+}
+
+.mobileContainer#work .card a
+{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #FFF0F3;
+    border-radius: 50px;
+    color: #FF708D;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+
+.mobileContainer#work .card .icon
+{
+    background-color: #FFF0F3;
+    border-radius: 20px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    color: #FF708D;
+}
+

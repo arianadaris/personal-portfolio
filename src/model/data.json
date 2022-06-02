@@ -1,0 +1,72 @@
+{
+    "01": {
+      "url": "https://github.com/arianadaris/react-personal-website-v2",
+      "name": "Personal Portfolio",
+      "details": "ReactJS ◦ HTML ◦ CSS ◦ Figma",
+      "image": "Card_1_PersonalPortfolio.png",
+      "bgColor": "#F5F8FF"
+    },
+    "02": {
+      "url": "https://github.com/arianadaris/react-personal-website-v2",
+      "name": "Golf Raffle Website",
+      "details": "Wordpress ◦ HTML ◦ CSS ◦ Figma",
+      "image": "Card_1_PersonalPortfolio.png",
+      "bgColor": "#DBE5FF"
+    },
+    "03": {
+      "url": "https://github.com/arianadaris/block-palettes",
+      "name": "Block Palettes Recreation",
+      "details": "NodeJS ◦ MongoDB ◦ CSS ◦ Figma",
+      "image": "Card_3_BlockPalettes.png",
+      "bgColor": "#FFCDA9"
+    },
+    "04": {
+      "url": "https://github.com/arianadaris/block-palettes",
+      "name": "The Planets Project",
+      "details": "NodeJS ◦ HTML ◦ CSS ◦ Figma",
+      "image": "Card_4_PlanetsProject.png",
+      "bgColor": "#FFF2E9"
+    },
+    "05": {
+      "url": "https://github.com/arianadaris/react-personal-website-v2",
+      "name": "Personal Website V2",
+      "details": "ReactJS ◦ HTML ◦ CSS ◦ Figma",
+      "image": "Card_5_WebsiteV2.png",
+      "bgColor": "#FFF0F3"
+    },
+    "06": {
+      "url": "https://github.com/arianadaris/react-personal-website",
+      "name": "Personal Website V1",
+      "details": "NodeJS ◦ HTML ◦ CSS ◦ Figma",
+      "image": "Card_6_WebsiteV1.png",
+      "bgColor": "#FFBECB"
+    },
+    "07": {
+      "url": "https://github.com/arianadaris/calendar",
+      "name": "Console Based Calendar",
+      "details": "C++",
+      "image": "Card_6_WebsiteV1.png",
+      "bgColor": "#CCF9C2"
+    },
+    "08": {
+      "url": "https://github.com/arianadaris/chemistry-calculator",
+      "name": "Chemistry Calculator with GUI",
+      "details": "Python ◦ wxPython",
+      "image": "Card_6_WebsiteV1.png",
+      "bgColor": "#EDFFE9"
+    },
+    "09": {
+      "url": "java-chem-calculator",
+      "name": "Java Chemistry Calculator",
+      "details": "Java",
+      "image": "Card_6_WebsiteV1.png",
+      "bgColor": "#F5F8FF"
+    },
+    "010": {
+      "url": "https://github.com/arianadaris/block-processing",
+      "name": "Block Color Processing Program",
+      "details": "Python",
+      "image": "Card_6_WebsiteV1.png",
+      "bgColor": "#DBE5FF"
+    }
+  }

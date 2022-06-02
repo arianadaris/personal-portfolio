@@ -1,0 +1,147 @@
+.desktopContainer
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: #F5F8FF;
+    border-radius: 100px 100px 0 0;
+    overflow: visible;
+}
+
+#getter
+{
+    font-size: 1.75rem;
+    color: #5685FF;
+    width: 100%;
+    text-align: center;
+    margin-top: -1rem;
+    margin-bottom: 3rem;
+}
+
+.introBackground
+{
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -3rem;
+}
+
+#introImage
+{
+    width: 60vw;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 0;
+}
+
+#section
+{
+    color: #5685FF;
+    text-align: center;
+    margin-top: -5rem;
+    font-size: 4rem;
+    z-index: 100;
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.text
+{
+    width: 40%;
+}
+
+.image
+{
+    position: relative;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+#image
+{
+    width: 50%;
+    margin-bottom: 3.5rem;
+    z-index: 2;
+}
+
+#softdevCircle
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 10rem;
+    margin-right: 4rem;
+    margin-top: -3.5rem;
+    z-index: 0;
+    -webkit-animation:rotate 20s linear infinite;
+    -moz-animation:rotate 20s linear infinite;
+    animation:rotate 20s linear infinite;
+    z-index: 1;
+}
+
+@keyframes rotate
+{
+    100% 
+    { 
+        -webkit-transform: rotate(360deg); 
+        transform: rotate(360deg); 
+    }
+}
+
+@-webkit-keyframes rotate
+{
+    100% 
+    { 
+        -webkit-transform: rotate(360deg); 
+    }
+}
+
+@-moz-keyframes rotate
+{
+    100% 
+    { 
+        -moz-transform: rotate(360deg); 
+    }
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.buttonWrapper
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.desktopContainer a
+{
+    color: #FF708D;
+    border: 2px solid #FF708D;
+    background-color: #FFF0F3;
+    border-radius: 50px;
+    padding: 1rem 2rem;
+    font-weight: bold;
+    transition: 0.3s all ease-in-out;
+}
+
+.desktopContainer a:hover
+{
+    transform: scale(1.025);
+}

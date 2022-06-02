@@ -1,0 +1,66 @@
+.desktopContainer
+{
+    margin: 5rem 0 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.introBackground
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: #5685FF;
+    text-align: center;
+}
+
+.introBackground h1
+{
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: -3.5rem;
+}
+
+.introBackground h2
+{
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: -2rem;
+}
+
+.cardContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 17.5%;
+    height: 100%;
+    width: 100%;
+}
+
+.cardContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2rem;
+}
+
+.gitHubButton
+{
+    color: #FF708D;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    transition: 0.3s all ease-in;
+}
+
+.gitHubButton:hover
+{
+    transform: scale(1.025);
+}

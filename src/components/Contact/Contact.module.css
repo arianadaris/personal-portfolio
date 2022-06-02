@@ -1,0 +1,79 @@
+.desktopContainer
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.introBackground
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.human
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+#image
+{
+    height: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introBackground h1
+{
+    margin-top: -2rem;
+    font-size: 2.5rem;
+    color: #5685FF;
+    text-align: center;
+    width: 100%;
+}
+
+.introBackground h3
+{
+    font-size: 1.2rem;
+    color: #5685FF;
+    text-align: center;
+    width: 100%;
+    margin-top: -2rem;
+    font-weight: normal;
+}
+
+.buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.buttons a
+{
+    background-color: #FFF0F3;
+    border: 2px solid #FF708D;
+    color: #FF708D;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 1.75rem;
+    margin-bottom: 1rem;
+    padding: 1.2rem 2rem;
+    border-radius: 50px;
+    transition: 0.3s all ease-in-out;
+}
+
+.buttons a:hover
+{
+    transform: scale(1.025);
+}

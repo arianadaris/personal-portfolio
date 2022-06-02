@@ -1,0 +1,50 @@
+.image
+{
+    width: fit-content;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card .image:hover
+{
+    box-shadow:0 0 15px rgba(0, 0, 0, 0.08)
+}
+
+.card .image h1
+{
+    color: white;
+    font-size: 8rem;
+    margin-top: -6rem;
+    margin-left: -0.33rem;
+    line-height: 5.9rem;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.card p
+{
+    color: #373737;
+    font-size: 1rem;
+    margin-top: -0.8rem;
+    text-align: left;
+}
+
+.card h1
+{
+    color: black;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.card:hover
+{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.card
+{
+    width: fit-content;
+    margin-bottom: 4rem;
+    transition: all 0.3s ease-in-out;
+}

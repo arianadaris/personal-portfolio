@@ -1,0 +1,15 @@
+.socials .iconify
+{
+    color: #5685FF;
+    height: 1.7rem;
+    padding-left: 0.05rem;
+    padding-right: 0.05rem;
+    transition: all 0.3s ease-in-out;
+    z-index: 1000;
+}
+
+.socials .iconify:hover
+{
+    transform: translateY(-0.5rem);
+    cursor: pointer;
+}
