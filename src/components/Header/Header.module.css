@@ -1,11 +1,19 @@
+:root
+{
+    --mainColor: #5685FF;
+}
+
 /* Desktop */
 .desktopContainer
 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
+    z-index: 999;
+    position: sticky;
+    position: -webkit-sticky;
+    overflow-x: hidden;
+    padding: 1rem 2rem 0 2rem;
 }
 
 .mobileContainer
@@ -15,9 +23,21 @@
     align-items: center;
 }
 
+.logoContainer
+{
+    width: fit-content;
+}
+
 .logo
 {
     font-size: 2.4rem;
+    color: var(--mainColor);
+    animation: typing 1s forwards ease-in-out;
+    width: 0;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    margin-block: 0;
 }
 
 .navigation ul
@@ -32,12 +52,13 @@
     font-size: 1rem;
     padding-left: 30px;
     padding-right: 30px;
+    color: black;
     transition: all 0.3s ease-in-out;
 }
 
 .link:hover
 {
-    text-decoration: underline;
+    color: var(--mainColor);
 }
 
 .underline
@@ -45,12 +66,17 @@
     text-decoration: underline;
 }
 
-.nav
-{
-    color: red;
-}
 
 .active
 {
     text-decoration: underline;
 }
+
+/* The typing effect */
+@keyframes typing
+{
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* Backwards typing effect */

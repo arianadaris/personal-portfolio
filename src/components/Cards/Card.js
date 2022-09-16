@@ -32,9 +32,8 @@ function createCard(image, url, name, details, bgColor, num) {
     if(num % 2 === 1)
         cardClass = "left"
 
-    console.log(name + " : " + cardClass);
-    return <div className={`${styles.card} ${'card'}`}>
-        <a href={url} target="_blank" rel="noreferrer"><div className={styles.image} style={{backgroundColor: bgColor}}>
+    return <div className={`${styles.card} ${'slide'}`}>
+        <a href={url}><div className={styles.image} style={{backgroundColor: bgColor}}>
             <img src={image} alt={name} />
             <h1>{num}</h1>
         </div>

@@ -1,0 +1,95 @@
+::root
+{
+    --mainColor: red;
+    --accentColor: red;
+}
+
+.desktopContainer
+{
+    margin: -2rem 0 4rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.empathizeContainer
+{
+    width: 50%;
+}
+
+.empathizeContainer h1
+{
+    font-size: 1.1rem;
+    color: var(--mainColor);
+}
+
+.empathizeContainer h3
+{
+    font-size: 1.55rem;
+    font-weight: normal;
+}
+
+.empathizeContainer p
+{
+    font-size: 1.1rem;
+}
+
+.empathizeContainer li
+{
+    list-style: inside;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.analysis
+{
+    width: 100%;
+    text-align: center;
+}
+
+.analysis h1
+{
+    color: #373737;
+    font-size: 1.1rem;
+}
+
+.gridWrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1rem;
+}
+
+.col h2
+{
+    color: white;
+    background-color: #373737;
+    border-radius: 50px;
+    font-size: 0.95rem;
+    font-weight: normal;
+    padding: 0.5rem 0;
+}
+
+.col h3
+{
+    color: #373737;
+    font-size: 0.95rem;
+    text-align: left;
+    font-weight: bold;
+}
+
+.col li
+{
+    list-style: inside;
+    text-align: left;
+    margin-left: -1.5rem;
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;;
+}

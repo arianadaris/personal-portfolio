@@ -1,0 +1,175 @@
+::root
+{
+    --w: 12.25rem;
+}
+
+.desktopContainer
+{
+    margin: 0rem 0 0rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.skills
+{
+    width: 50vw;
+    height: 100%;
+}
+
+.skills h1
+{
+    color: #FF708D;
+    font-size: 1.2rem;
+}
+
+#title
+{
+    margin-bottom: 2rem;
+}
+
+.skillContainer
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.skillContainer h1
+{
+    font-size: 1.4rem;
+    color: black;
+}
+
+.skillContainer h3
+{
+    font-weight: normal;
+    font-size: 0.95rem;
+    margin-top: -0.25rem;
+    padding: 0 2rem;
+}
+
+.otherContainer
+{
+    width: 45%;
+    height: 100%;
+}
+
+.frameworks, .software, .languages
+{
+    background-color: white;
+    width: 100%;
+    border-radius: 50px;
+    height: 100%;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.075);
+    margin-bottom: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+.iconify
+{
+    color: #FF708D;
+    background-color: #FFF0F3;
+    border-radius: 50px;
+    padding: 1.25rem 0.5rem;
+    height: 2.25rem;
+}
+
+.languages
+{
+    width: 55%;
+    height: 100%;
+    margin-right: 2rem;
+    text-align: left;
+    padding: 1.4rem 3rem 3rem 3rem;
+}
+
+.languages h1
+{
+    width: 100%;
+}
+
+.row
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.row h2
+{
+    font-weight: normal;
+    font-size: 0.95rem;
+}
+
+.bar
+{
+    position: relative;
+}
+
+.outline
+{
+    width: 12rem;
+    height: 1.5rem;
+    border-radius: 20px;
+    border: solid 1.5px #FF708D;
+    position: relative;
+    z-index: 1;
+}
+
+.fill
+{
+    height: 1.65rem;
+    background-color: #FFBECB;
+    border-radius: 20px;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    transition: 0.3s all ease-in;
+}
+
+#f100
+{
+    --w: 12.25rem;
+}
+
+#f95
+{
+    --w: 11.5rem;
+}
+
+#f85
+{
+    --w: 10.75rem;
+}
+
+#f80
+{ 
+    --w: 10rem;
+}
+
+#f75
+{
+    --w: 9.5rem;
+}
+
+#f60
+{
+    --w: 8rem;
+}

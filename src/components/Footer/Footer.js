@@ -1,31 +1,34 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
-import {animateScroll as scroll} from 'react-scroll';
 
 import Socials from '../Socials/Socials';
 
-import BackToTopArrow from '../../assets/Component_BackToTop.png';
+import {ReactComponent as BackToTopArrow} from '../../assets/Component_BackToTop.svg';
 
 import styles from './Footer.module.css';
 
-function Footer()
+function Footer(props)
 {
     const toTop = () => {
         window.scroll({
           top: 0,
           left: 0,
           behavior: "smooth"
-        })
-    }
+        });
+    };
+
+    const mainColor = props.mainColor;
+    const accentColor = props.accentColor;
+
     return (
         <div>
             <MediaQuery minWidth={415}>
                 <div className={styles.container}>
-                    <h1>© 2022 Ariana Rajewski</h1>
+                    <h1 style={{'--mainColor': mainColor}}>© 2022 Ariana Rajewski</h1>
                     <div className={styles.rightSide}>
-                        <Socials />
-                        <div className={styles.button} onClick={toTop}>
-                            <img src={BackToTopArrow} alt="Back to Top" />
+                        <Socials color={mainColor} />
+                        <div className={styles.button} style={{'--mainColor': mainColor, '--accentColor': accentColor}} onClick={toTop}>
+                            <BackToTopArrow fill={mainColor} />
                         </div>
                     </div>
                 </div>

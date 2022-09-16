@@ -1,0 +1,63 @@
+.desktopContainer
+{
+    margin: -5rem 0 0 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.errorContainer
+{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #F5F8FF;
+    border-radius: 0 0 100px 100px;
+    padding: 4rem 0;
+    margin-top: -2rem;
+}
+
+.errorContainer img
+{
+    height: 12.5rem;
+    margin-top: 7rem;
+}
+
+.errorContainer h1
+{
+    color: white;
+    font-size: 12rem;
+    margin-top: -3rem;
+    margin-bottom: 0;
+}
+
+.errorContainer h2
+{
+    margin-top: -3rem;
+    font-size: 1.55rem;
+}
+
+.errorContainer a
+{
+    color: #5685FF;
+    border: 1.5px solid #5685FF;
+    border-radius: 50px;
+    background-color: white;
+    padding: 1rem 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    transition: 0.3s all ease;
+}
+
+.errorContainer a:hover
+{
+    transform: scale(1.025);
+}

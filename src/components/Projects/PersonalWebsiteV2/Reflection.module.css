@@ -1,0 +1,125 @@
+::root
+{
+    --mainColor: 'red';
+    --accentColor: 'pink';
+}
+
+.desktopContainer
+{
+    margin: -5rem 0 0rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.reflectionContainer
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+    background-color: var(--accentColor);
+    border-radius: 100px;
+    padding: 5%;
+    margin-bottom: -2.5rem;
+    margin-top: 2rem;
+}
+
+.reflectionContainer h1
+{
+    font-size: 1.1rem;
+    color: var(--mainColor);
+    margin-bottom: 0rem;
+}
+
+.reflectionContainer h3
+{
+    font-size: 1.55rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.reflectionContainer p
+{
+    font-size: 1.1rem;
+}
+
+.steps
+{
+    display: flex;
+    justify-content: center;
+}
+
+.step
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.1rem;
+}
+
+.step h4
+{
+    margin-bottom: 0;
+}
+
+#githubBtn
+{
+    color: var(--mainColor);
+    font-weight: bold;
+    border: 2px solid var(--mainColor);
+    border-radius: 50px;
+    padding: 1.1rem 1.6rem;
+    width: fit-content;
+    background-color: white;
+    margin: 3rem auto 0rem auto;
+    transition: 0.3s all ease;
+}
+
+#githubBtn:hover
+{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.buttons
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0 1rem 0;
+}
+
+.buttons a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconify
+{
+    color: var(--mainColor);
+}
+
+.buttons h3
+{
+    margin: 0 1rem;
+    font-weight: normal;
+    color: var(--mainColor);
+}
+
+.buttons h3:hover
+{
+    text-decoration: underline;
+}
