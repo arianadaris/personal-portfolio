@@ -1,18 +1,24 @@
 import React from 'react';
 
-import Intro from '../components/About/Intro/Intro';
-import WhatIHaveDone from '../components/About/WhatIHaveDone/WhatIHaveDone'
-import WhatIDo from '../components/About/WhatIDo/WhatIDo';
-import WhatIWillDo from '../components/About/WhatIWillDo/WhatIWillDo';
+import Header from '../components/Header/Header'
+import Intro from '../components/About/Intro';
+import Goal from '../components/About/Goal';
+import Skills from '../components/About/Skills';
+import Work from '../components/About/Work';
+import Other from '../components/About/Other';
+import Footer from '../components/Footer/Footer';
 
 function About()
 {
     return (
         <div>
+            <Header color='#FF708D' />
             <Intro />
-            <WhatIHaveDone />
-            <WhatIDo />
-            <WhatIWillDo />
+            <Goal />
+            <Skills />
+            <Work />
+            <Other />
+            <Footer mainColor='#FF708D' accentColor='#FFF0F3' />
         </div>
     );
 }

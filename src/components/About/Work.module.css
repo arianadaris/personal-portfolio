@@ -1,0 +1,74 @@
+.desktopContainer
+{
+    margin: 0rem 0 2rem 0;
+    padding: 0;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+    padding-top: 2rem;
+    max-width: 100%;
+}
+
+#title
+{
+    color: #FF708D;
+    font-size: 1.2rem;
+    margin-bottom: 1.25rem;
+    width: 50%;
+    text-align: left;
+}
+
+.workContainer
+{
+    width: 100vw;
+}
+
+.job
+{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.job h1
+{
+    font-size: 1.4rem;
+    color: black;
+    font-weight: normal;
+    margin-bottom: 1rem;
+}
+
+.job li
+{
+    list-style: inside;
+    font-size: 0.95rem;
+    margin-left: -1rem;
+    margin-bottom: 0.1rem;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.job h3
+{
+    font-size: 0.95rem;
+    font-weight: normal;
+    font-style: italic;
+    margin-top: 1.4rem;
+}
+
+.pink
+{
+    font-weight: bold;
+    color: #FFBECB;
+    font-style: normal;
+}

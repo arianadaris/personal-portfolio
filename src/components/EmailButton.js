@@ -31,6 +31,12 @@ export default EmailButton;
 const EmailContainer = styled.div`
     transition: 0.3s all ease-in;
     
+    .button
+    {
+        padding: 1rem 2.5rem;
+        border-radius: 50px;
+    }
+
     :hover
     {
         transform: scale(1.025);

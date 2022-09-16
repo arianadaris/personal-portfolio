@@ -1,0 +1,134 @@
+::root
+{
+    --mainColor: 'red';
+    --accentColor: 'pink';
+}
+
+.desktopContainer
+{
+    margin: -10rem 0 4rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.introSection
+{
+    width: 100vw;
+    background-color: var(--accentColor);
+    border-radius: 0 0 100px 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    padding-top: 8rem;
+}
+
+.introContent
+{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#number
+{
+    font-size: 7rem;
+    color: white;
+    line-height: 0;
+    margin-bottom: -2rem;
+    margin-top: 3rem;
+}
+
+#title
+{
+    font-size: 3rem;
+    margin-bottom: -0.65rem;
+}
+
+.introContent h3
+{
+    font-weight: normal;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.introContent img
+{
+    display: block;
+    height: auto;
+    width: auto;
+    max-height: 30rem;
+    max-width: 30rem;
+    margin-bottom: -2.5rem;
+}
+
+.overview
+{
+    width: 50%;
+}
+
+.overview h1, .challenge h1
+{
+    font-size: 1.1rem;
+    color: var(--mainColor);
+}
+
+.overview h3
+{
+    font-size: 1.55rem;
+    font-weight: normal;
+}
+
+.overviewItems
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.item h1
+{
+    font-size: 1.1rem;
+    color: #434343;
+    margin-bottom: -0.25rem;
+}
+
+.item h3, .challenge h3
+{
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #434343;
+}
+
+.challenge
+{
+    width: 60vw;
+    background-color: var(--accentColor);
+    border-radius: 100px;
+    padding: 1rem 0;
+    margin-left: -5vw;
+    margin-top: 2rem;
+}
+
+.challenge h1, .challenge h3
+{
+    padding-left: 4.5rem;
+}
+
+.challenge h3
+{
+    color: black;
+}

@@ -1,0 +1,68 @@
+::root
+{
+    --mainColor: red;
+}
+
+.desktopContainer
+{
+    margin: -8rem 0 4rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.designContainer
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 6em;
+    width: 50%;
+}
+
+.designContainer h1
+{
+    font-size: 1.1rem;
+    color: var(--mainColor);
+    margin-bottom: 0rem;
+}
+
+.designContainer h3
+{
+    font-size: 1.55rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.designContainer p
+{
+    font-size: 1.1rem;
+}
+
+.designImage
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.designImage img
+{
+    height: 25rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.10);
+    margin: 1rem 0;
+}
+
+.moodboardImage img
+{
+    height: 25rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.10);
+    margin: 1rem 0;
+}

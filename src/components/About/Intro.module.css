@@ -1,0 +1,97 @@
+.desktopContainer
+{
+    margin: -6.3rem 0 2rem 0;
+    padding: 0;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    position: relative;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.helloSection
+{
+    background-color: #FFF0F3;
+    border-radius: 0 0 100px 100px;
+    height: 26rem;
+    width: 100vw;
+    z-index: -1;
+    padding-top: 4rem;
+}
+
+.helloText
+{
+    z-index: 2;
+    width: 100%;
+    text-align: center;
+    color: #FF708D;
+}
+
+.helloText h1
+{
+    font-size: 3rem;
+    margin-top: 2.5rem;
+}
+
+.helloText h3
+{
+    font-weight: normal;
+    margin-top: -1.75rem;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+}
+
+.overview
+{
+    width: 50%;
+    margin-top: 2.5rem;
+}
+
+.overview h1
+{
+    color: #FF708D;
+    font-size: 1.2rem;
+}
+
+.overview h3
+{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: normal;
+}
+
+.overview p
+{
+    padding-bottom: 0.5rem;
+}
+
+.shake
+{
+    display: inline-block;
+    animation: tilt-shaking 0.5s linear 6;
+    transition: 0.3s all ease;
+}
+
+.shake:hover
+{
+    cursor: pointer;
+    animation: tilt-shaking 0.5s linear infinite;
+}
+
+@keyframes tilt-shaking {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(8deg); }
+    50% { transform: rotate(0deg); }
+    75% { transform: rotate(-8deg); }
+    100% { transform: rotate(0deg); }
+}

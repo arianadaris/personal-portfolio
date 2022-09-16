@@ -1,0 +1,99 @@
+::root
+{
+    --mainColor: red;
+    --accentColor: red;
+}
+
+.desktopContainer
+{
+    margin: -10rem 0 4rem 0;
+    padding: 0;
+    display: flex;
+    overflow: visible;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.prototypeContainer
+{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 6rem;
+}
+
+.prototypeContainer h1
+{
+    font-size: 1.1rem;
+    color: var(--mainColor);
+    margin-bottom: 0rem;
+}
+
+.prototypeContainer h3
+{
+    font-size: 1.55rem;
+    font-weight: normal;
+    margin-bottom: 0.5rem;
+}
+
+.prototypeContainer p
+{
+    font-size: 1.1rem;
+}
+
+.medium
+{
+    display: flex;
+    justify-content: center;
+}
+
+#desktop
+{
+    height: 55rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.10);
+}
+
+#mobile
+{
+    height: 25rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.10);
+}
+
+#prototypeBtn
+{
+    color: #5685FF;
+    font-weight: bold;
+    border: 2px solid var(--mainColor);
+    border-radius: 50px;
+    padding: 1.1rem 1.1rem;
+    width: fit-content;
+    background-color: var(--accentColor);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transition: 0.3s all ease;
+    z-index: 10;
+}
+
+#prototypeBtn:hover
+{
+    transform: scale(1.025);
+    cursor: pointer;
+}
+
+.high
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#high
+
+{
+    height: 45rem;
+}

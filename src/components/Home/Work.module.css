@@ -1,0 +1,150 @@
+/* Desktop */
+
+.desktopContainer#work
+{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+}
+
+.workButton
+{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #5685FF;
+    text-decoration: underline;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    width: 100%;
+    text-align: center;
+}
+
+.desktopContainer#work .cardContainer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
+}
+
+/* Mobile */
+
+.mobileContainer#work
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    margin: 0;
+}
+
+#title
+{
+    text-align: left;
+    width: 100%;
+    margin-left: 4rem;
+}
+
+.mobileContainer .cardContainer
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: -1rem;
+    height: 39vh;
+    position: relative;
+}
+
+.mobileContainer .card
+{
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 5px 25px rgba(0,0,0,0.075);
+    margin-bottom: 1.5rem;
+    height: 100%;
+    width: 85%;
+    padding: 0.15rem 0.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.mobileContainer .cardImage
+{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mobileContainer .cardImage img
+{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: initial;
+}
+
+.mobileContainer .image
+{
+    background-color: #5685FF;
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
+}
+
+.mobileContainer .cardText
+{
+    width: 70%;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.mobileContainer .card h1
+{
+    font-size: 1.35rem;
+}
+
+.mobileContainer .card h3
+{
+    font-size: 0.75rem;
+    font-weight: normal;
+    margin-top: -0.65rem;
+    margin-bottom: 1.4rem;
+}
+
+.starWrapper
+{
+    position: relative;
+    z-index: -1;
+}
+
+#right
+{
+    position: absolute;
+    top: -1.4rem;
+    left: 21.15rem;
+    z-index: -999;
+}
+
+#left
+{
+    z-index: -999;
+    position: absolute;
+    margin-left: -7.25rem;
+    margin-top: 1.5rem;
+}

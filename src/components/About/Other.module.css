@@ -1,0 +1,126 @@
+.desktopContainer
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: fit-content;
+    position: relative;
+    background-color: #FFF0F3;
+    border-radius: 100px 100px 0 0;
+    z-index: 15;
+}
+
+.otherContainer
+{
+    margin-top: 3rem;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.otherWrapper
+{
+    width: 50%;
+}
+
+#title
+{
+    color: #FF708D;
+    font-size: 1.2rem;
+}
+
+.otherContainer h3
+{
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin-top: 0.85rem;
+}
+
+.bold
+{
+    font-weight: bold;
+}
+
+.otherContainer li
+{
+    list-style: inside;
+    margin-bottom: 1rem;
+    margin-left: -1rem;
+}
+
+.otherContainer ul
+{
+    margin-bottom: 2rem;
+}
+
+.images
+{
+    display: flex;
+    margin-bottom: 5rem;
+    position: relative;
+    justify-content: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.images:hover
+{
+    cursor: pointer;
+}
+
+.images:hover > #leftStar, .images:hover > #rightStar
+{
+    animation: scale 6s linear infinite;
+}
+
+@keyframes scale
+{
+    0%
+    {
+        transform: scale(1) rotate(0deg);
+    }
+    50%
+    {
+        transform: scale(1.25) rotate(180deg);
+    }
+    100%
+    {
+        transform:scale(1) rotate(360deg);
+    }
+}
+
+.images img
+{
+    height: 25%;
+    width: 25%;
+    margin-right: 1rem;
+    z-index: 5;
+}
+
+#leftStar, #rightStar
+{
+    z-index: 1;
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+}
+
+#leftStar
+{
+    top: 4rem;
+    left: 0;
+    right: 0;
+    margin-left: -5.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+#rightStar
+{
+    bottom: -2rem;
+    right: -3.5rem;
+    transition: all 0.3s ease-in-out;
+}

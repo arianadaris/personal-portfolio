@@ -3,21 +3,25 @@ import MediaQuery from 'react-responsive';
 
 import styles from './Header.module.css';
 import { useLocation } from 'react-router';
+import { motion } from 'framer-motion';
 
-function Header()
+function Header(props)
 {
     var location = useLocation();
-    const headerColor = location.pathname === '/about' ? { color: '#FF708D' } : { color: '#5685FF' }
+    var color = props.color;
     
-    const aboutUnderline = location.pathname === '/about' ? { textDecoration: 'underline' } : { textDecoration: 'none' }; 
-    const workUnderline = location.pathname === '/work' ? { textDecoration: 'underline' } : { textDecoration: 'none' }; 
-    const contactUnderline = location.pathname === '/contact' ? { textDecoration: 'underline' } : { textDecoration: 'none' }; 
+    const aboutUnderline = location.pathname === '/about' ? { textDecoration: 'underline', '--mainColor': color } : { textDecoration: 'none', '--mainColor': color}; 
+    const workUnderline = location.pathname === '/work' ? { textDecoration: 'underline', '--mainColor': color } : { textDecoration: 'none', '--mainColor': color }; 
+    const contactUnderline = location.pathname === '/contact' ? { textDecoration: 'underline', '--mainColor': color } : { textDecoration: 'none', '--mainColor': color }; 
     
     return ( 
         <div>
+            {/* Desktop Render */}
             <MediaQuery minWidth={415}>
                 <div className={`${styles.desktopContainer} ${'header'}`}>
-                    <a href="/"><h1 className={styles.logo} style={headerColor}>Ariana Daris</h1></a>
+                    <div className={styles.logoContainer}>
+                        <a href="/"><h1 className={styles.logo} style={{color: color}}>Ariana Daris</h1></a>
+                    </div>
                     <div className={styles.navigation}>
                         <ul>
                             <a href="/about" className={styles.link} style={aboutUnderline}>About</a>
@@ -27,10 +31,9 @@ function Header()
                     </div>
                 </div>
             </MediaQuery>
+            {/* Mobile Render */}
             <MediaQuery maxWidth={415}>
-                <div className={styles.mobileContainer}>
-                    <a href="/"><h1 id="logo">Ariana Daris</h1></a>
-                </div>
+
             </MediaQuery>
         </div>
     );

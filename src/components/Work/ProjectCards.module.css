@@ -1,58 +1,60 @@
 .desktopContainer
 {
-    margin: 5rem 0 0 0;
+    margin: -5rem 0 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 100%;
     width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 
 .introBackground
 {
-    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background-color: #F5F8FF;
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 100px 100px;
+    padding-bottom: 1rem;
     color: #5685FF;
     text-align: center;
-}
-
-.introBackground h1
-{
-    font-size: 4rem;
-    font-weight: bold;
-    margin-top: -3.5rem;
+    padding-top: 5rem;
+    margin-bottom: 1rem;
 }
 
 .introBackground h2
 {
-    font-size: 1.2rem;
-    font-weight: normal;
-    margin-top: -2rem;
+    font-size: 4rem;
+    font-weight: bold;
+    margin-top: 0rem;
 }
 
-.cardContainer
+.introBackground h3
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 17.5%;
-    height: 100%;
-    width: 100%;
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin-top: -3rem;
 }
 
 .cardContainer
 {
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 4rem;
     margin-top: 2rem;
+    width: 50%;
 }
 
 .gitHubButton
 {
-    color: #FF708D;
+    color: #5685FF;
     font-weight: bold;
     text-decoration: underline;
     font-size: 1.4rem;

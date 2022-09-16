@@ -2,8 +2,6 @@ import React from 'react';
 
 import styles from './ProjectCards.module.css';
 
-import CheckOutWork from '../../assets/Background_CheckOutWork.png';
-
 import Cards from '../Cards/Card';
 
 function ProjectCards()
@@ -12,9 +10,8 @@ function ProjectCards()
         <div>
             <div className={styles.desktopContainer}>
                 <div className={`${styles.introBackground} ${'workIntro'}`}>
-                    <img id={styles.introImage} src={CheckOutWork} alt="Work Section Background - 'Check Out My Work'" />
-                    <h1>My Work</h1>
-                    <h2>Here are some of my favorite projects!</h2>
+                    <h2>My Work</h2>
+                    <h3>Here are some of my favorite projects!</h3>
                 </div>
                 <div className={styles.cardContainer}>
                     <Cards />

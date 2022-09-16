@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 
-html
+html, body
 {
-  height: 100%;
-  width: 100%;
-  max-width: 100%;
-  margin: 0px;
-  padding: 0px;
+  height: 100vh;
+  max-width:100%;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
   background-color: white;
   font-family: "Be Vietnam Pro", Arial;
-  overflow-x: hidden;
   box-sizing: border-box;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  width: 100%;
   scroll-behavior: smooth;
 }
 
@@ -27,3 +25,9 @@ li
 {
   list-style: none;
 }
+
+body
+{
+  overflow-x: hidden;
+}
+

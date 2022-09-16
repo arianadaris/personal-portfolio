@@ -1,0 +1,143 @@
+/* Desktop */
+
+.desktopContainer
+{
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: #F5F8FF;
+    border-radius: 0 0 100px 100px;
+    margin: -6rem auto 4rem auto;
+    padding-bottom: 4rem;
+    transition: 0.3s all ease;
+}
+
+.introBackground
+{
+    width: fit-content;
+}
+
+#develop
+{
+    color: white;
+    font-size: 23rem;
+    margin-top: 2rem;
+    overflow: hidden;
+    width: fit-content;
+    animation: typing 3s forwards;
+    text-align: center;
+}
+
+/* The typing effect */
+@keyframes typing 
+{
+    from { width: 0 }
+    to { width: 100% }
+}
+
+.introSlide
+{
+    display: flex;
+    width: 60%;
+    margin-top: -32rem;
+}
+
+.introSlide .text
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1rem;
+    width: 75%;
+}
+
+.introSlide h6
+{
+    margin-top: -1rem;
+    font-weight: normal;
+    margin-bottom: -1rem;
+    font-size: 1.2rem;
+}
+
+.introSlide .text h1
+{
+    color: black;
+    font-size: 5rem;
+    margin-left: -0.1rem;
+}
+
+.introSlide p
+{
+    color: #373737;
+    font-size: 1.2em;
+    margin-top: -1rem;
+    line-height: 1.5rem;
+    width: 75%;
+}
+
+.introSlide .image
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.introSlide #personal
+{
+    height: 20rem;
+    margin-bottom: 1rem;
+}
+
+/* Mobile */
+
+.mobileContainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.background
+{
+    background-color: #F5F8FF;
+    border-radius: 0 0 50px 50px;
+    height: 7.5rem;
+    width: 100%;
+}
+
+#personal
+{
+    height: 9rem;
+    margin-top: -4.5rem;
+}
+
+.text h3
+{
+    font-weight: normal;
+    color: #5685FF;
+    margin-top: -0.85rem;
+    margin-bottom: 2rem;
+}
+
+.text h1
+{
+    font-size: 2.4rem;
+    
+}
+
+.bold
+{
+    font-weight: bold;
+}
